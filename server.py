@@ -5,7 +5,7 @@ from socket import *
 from time import ctime
 import select
 import sys
-HOST = ''
+HOST = '127.0.0.1'
 PORT = 21567
 BUFSIZ = 1024
 ADDR = (HOST, PORT)
